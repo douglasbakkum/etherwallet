@@ -17,7 +17,7 @@
       <br />
       <a tabindex="0" role="button" class="btn btn-primary btn-block" func="generateSingleWallet" ng-click="genNewWallet()" translate="NAV_GenerateWallet">Generate Wallet</a>
       <br /><br /><br /><br /><br /><br />
-      <p class="strong">Ledger & TREZOR users: Do not generate a new wallet&mdash;your hardware device <em> is </em> your wallet.<br /><a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">You can connect to your device, see your addresses, or send ETH or Tokens here.</a></p>
+      <p class="strong">Ledger, TREZOR, and Digital Bitbox users: Do not generate a new wallet&mdash;your hardware device <em> is </em> your wallet.<br /><a ng-click="globalService.currentTab=globalService.tabs.sendTransaction.id">You can connect to your device, see your addresses, or send ETH or Tokens here.</a></p>
     </div>
   </section>
 
